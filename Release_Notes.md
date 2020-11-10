@@ -1,5 +1,5 @@
 ---
-pagetitle: Release Notes for HX8347I Component Drivers
+pagetitle: Release Notes for HX8347I Component Driver
 lang: en
 ---
 
@@ -9,25 +9,25 @@ lang: en
 ::: {.card .fluid}
 ::: {.sectione .dark}
 <center>
-# <small>Release Notes for</small> <mark>HX8347I Component Drivers</mark>
+# **Release Notes for HX8347I Component Driver**
 Copyright &copy; 2019 STMicroelectronics\
     
-[![ST logo](../../../../_htmresc/st_logo.png)](https://www.st.com){.logo}
+[![ST logo](_htmresc/st_logo.png)](https://www.st.com){.logo}
 </center>
 :::
 :::
 
 # License
 
-Licensed by ST under BSD 3-Clause license (the \"License\"). You may
-not use this package except in compliance with the License. You may
-obtain a copy of the License at:
-
+This software component is licensed by ST under BSD 3-Clause license, the "License"; You may not use this component except in 
+compliance with the License. You may obtain a copy of the License at:
+<center>
 [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+</center>
 
 # Purpose
 
-This directory contains the HX8347I component drivers.
+This driver provides a set of functions for HX8347I LCD controller Component
 
 :::
 
@@ -35,7 +35,29 @@ This directory contains the HX8347I component drivers.
 # Update History
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section22" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<label for="collapse-section3" aria-hidden="true">__V2.0.0 / 22-November-2019__</label>
+<div>			
+
+## Main Changes
+
+-	Official version of HX8347I LCD controller Component Drivers in line with STM32Cube BSP drivers development guidelines (UM2298)
+
+## Backward Compatibility
+
+This version breaks the compatibility with previous versions
+
+## Dependencies
+
+This software release is compatible with:
+
+-	BSP Common v6.0.0 or above
+
+</div>
+:::
+
+::: {.collapse}
+<input type="checkbox" id="collapse-section22" aria-hidden="true">
 <label for="collapse-section22" aria-hidden="true">V1.0.1 / 28-June-2019</label>
 <div>			
 
@@ -63,5 +85,5 @@ This directory contains the HX8347I component drivers.
 
 <footer class="sticky">
 For complete documentation on <mark>STM32 Microcontrollers</mark> ,
-visit: [http://www.st.com/STM32](http://www.st.com/STM32)
+visit: [[www.st.com](http://www.st.com/STM32)]{style="font-color: blue;"}
 </footer>
